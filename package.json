@@ -1,0 +1,54 @@
+{
+  "name": "my-cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Always a pleasure scaffolding your awesome static sites.",
+  "license": "MIT",
+  "keywords": [
+    "my-cli"
+  ],
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "main": "lib/index.js",
+  "bin": "bin/my-cli.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "dev": "gulp dev --production"
+  },
+  
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0"
+  },
+  "devDependencies": {
+    
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}
