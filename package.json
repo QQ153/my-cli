@@ -1,7 +1,6 @@
 {
-  "name": "my-cli",
-  "version": "0.1.0",
-  "private": true,
+  "name": "my_cli_mod",
+  "version": "0.2.0",
   "description": "Always a pleasure scaffolding your awesome static sites.",
   "license": "MIT",
   "keywords": [

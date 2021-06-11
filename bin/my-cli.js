@@ -5,4 +5,4 @@ process.argv.push(process.cwd())
 process.argv.push('--gulpfile')
 process.argv.push(require.resolve('..'))
 
-require('guip/bin/gulp')
+require('gulp/bin/gulp')
